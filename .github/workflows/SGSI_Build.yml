@@ -44,7 +44,7 @@ jobs:
 
       - name: Download SGSI-tool source code
         run: |
-          git clone --recurse-submodules https://github.com/OniiGSIs/SGSI-build-tool.git -b 12 $GITHUB_WORKSPACE/SGSI-build-tool
+          git clone --recurse-submodules https://github.com/ZualoliconVN/SGSI-build-tool.git -b 12 $GITHUB_WORKSPACE/SGSI-build-tool
 
       - name: Thiết Lập sGSI tool
         run: |
